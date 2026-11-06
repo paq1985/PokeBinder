@@ -17,9 +17,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        uses: npm install
-        with:
-          command: install
+        run: npm install
 
       - name: Build web assets
         run: npm run build
