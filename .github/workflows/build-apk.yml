@@ -17,7 +17,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        uses: shinyinc/action-yarn@v2
+        uses: npm install
         with:
           command: install
 
